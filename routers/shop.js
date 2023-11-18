@@ -57,6 +57,18 @@ router.get("/alltours",  async (req, res) => {
 		
 	});
 });
+router.get("/menu",  async (req, res) => {
+	const category = await Category.find();
+	const footerpopular = await Category.find({ tag: 'popular' }).limit(5);
+	const footertopattr = await Category.find({ tag: 'top attraction' }).limit(5);
+	res.render("menu", {
+		activePage: 'menu',
+		category: category,
+		footerpopular:footerpopular,
+		footertopattr:footertopattr,
+		
+	});
+});
 
 router.get("/gallery",  async (req, res) => {
 	const category = await Category.find();
