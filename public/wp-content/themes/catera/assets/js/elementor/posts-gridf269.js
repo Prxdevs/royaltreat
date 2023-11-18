@@ -1,0 +1,1 @@
+(function($){"use strict";$(window).on('elementor/frontend/init',()=>{elementorFrontend.hooks.addAction('frontend/element_ready/catera-post-grid.default',($element)=>{let addHandler=$('.catera-swiper-wrapper',$element);if(addHandler.length>0){elementorFrontend.elementsHandler.addHandler(cateraSwiperBase,{$element,});}});});})(jQuery);
