@@ -73,11 +73,13 @@ router.get("/menu",  async (req, res) => {
 router.get("/gallery",  async (req, res) => {
 	const category = await Category.find();
 	const footerpopular = await Category.find({ tag: 'popular' }).limit(5);
+	const footerbirthday = await Category.find({ tag: 'birthday' }).limit(5);
 	const footertopattr = await Category.find({ tag: 'top attraction' }).limit(5);
 	res.render("gallery", {
 		activePage: 'gallery',
 		category: category,
 		footerpopular:footerpopular,
+		footerbirthday:footerbirthday,
 		footertopattr:footertopattr,
 		
 	});
@@ -205,13 +207,13 @@ router.post("/contact", (req,res)=>{
 		port: 465,
 		secure: true,
 		auth: {
-		  user: 'rahulvadhiya.vmukti@gmail.com',
-		  pass: 'fiqhppdmwzegrtlr',
+		  user: 'info.royaltreat01@gmail.com',
+		  pass: 'iyvdfpozoxpdkmdp',
 		}
 	});
 	var mailOptions = {
 		from: mailContent.email,
-		to: 'rahulvadhiya.vmukti@gmail.com',
+		to: 'info.royaltreat01@gmail.com',
 		subject: "Contact Us Message",
 		// subject: "mailContent.subject",
 		text:  "Contact Us Message \n" +

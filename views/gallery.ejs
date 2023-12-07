@@ -288,12 +288,65 @@ Gallery </h1>
 </li>
 </ul>
 
+<div style="margin-bottom:30px">
+	<button class="button-13 filterButton" data-tag="all">Show All</button>
+	<button class="button-13 filterButton" data-tag="wedding">Wedding</button>
+	<button class="button-13 filterButton" data-tag="birthday">Birthday</button>
+	<button class="button-13 filterButton" data-tag="popular">Popular</button>
+	<button class="button-13 filterButton" data-tag="party">Party</button>
+</div>
+
 <div class="elementor-opal-image-gallery">
 <div class="elementor-flex isotope-grid">
+
+	<style>
+
+		/* CSS */
+	.button-13 {
+		background-color: #fff;
+		border: 1px solid #d5d9d9;
+		border-radius: 8px;
+	  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	  box-sizing: border-box;
+	  color: #0f1111;
+	  cursor: pointer;
+	  display: inline-block;
+	  font-family: "Amazon Ember",sans-serif;
+	  font-size: 13px;
+	  line-height: 29px;
+	  padding: 0 10px 0 11px;
+	  position: relative;
+	  text-align: center;
+	  text-decoration: none;
+	  user-select: none;
+	  -webkit-user-select: none;
+	  touch-action: manipulation;
+	  vertical-align: middle;
+	  width: 100px;
+	}
+	
+	.button-13:hover {
+		background-color: #f7fafa;
+	}
+	
+	.button-13:focus {
+		border-color: #008296;
+		box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+		outline: 0;
+	}
+	
+	.modal-backdrop {
+		z-index: 0 !important;
+	}
+	</style>
+	
+	
+
+	<br/>
     
     <% category.forEach((item, index)=> { %>
 
-<div class="grid__item gallery_group_all gallery_group_0" style="width: 300px; height: 300px;">
+<div class="gallery-block grid__item gallery_group_all gallery_group_0" style="width: 300px; height: 300px;" data-tag="<%= item.tag %>">
 <div class="gallery-image">
 <a href="<%= item.image %>">
 <img decoding="async" src="<%= item.image %>" alt="gallery-8" />
@@ -304,78 +357,37 @@ Gallery </h1>
 </div>
 <% }) %>
 
-<!-- <div class="grid__item gallery_group_all gallery_group_0">
-<div class="gallery-image">
-<a href="../wp-content/uploads/2023/10/gallery-1.jpg">
-<img decoding="async" src="../wp-content/uploads/elementor/thumbs/gallery-1-qdz2m836e3a8wm94onupgcttvlwtkwytzqx28g9amg.jpg" alt="gallery-1" />
-<i class="catera-icon-plus"></i>
-</a>
-</div>
-</div>
+<script>
+	// Add event listeners to the filter buttons
+	var filterButtons = document.querySelectorAll('.filterButton');
+  
+	filterButtons.forEach(function (button) {
+	  button.addEventListener('click', function () {
+		// Hide all images
+		var galleryBlocks = document.querySelectorAll('.gallery-block');
+		galleryBlocks.forEach(function (block) {
+		  block.style.display = 'none';
+		});
+  
+		// Show all images if the "All" button is clicked
+		if (button.getAttribute('data-tag') === 'all') {
+		  galleryBlocks.forEach(function (block) {
+			block.style.display = 'block';
+		  });
+		} else {
+		  // Show only images with the selected tag
+		  var selectedTag = button.getAttribute('data-tag');
+		  var filteredImages = document.querySelectorAll('.gallery-block[data-tag="' + selectedTag + '"]');
+		  filteredImages.forEach(function (image) {
+			image.style.display = 'block';
+		  });
+		}
+	  });
+	});
+  </script>
+  
 
-<div class="grid__item gallery_group_all gallery_group_0">
-<div class="gallery-image">
-<a href="../wp-content/uploads/2023/10/gallery-2.jpg">
-<img decoding="async" src="../wp-content/uploads/elementor/thumbs/gallery-2-qdz2mawoyle3vg51872l5u47nrix80a104vioa543s.jpg" alt="gallery-2" />
-<i class="catera-icon-plus"></i>
-</a>
-</div>
-</div>
 
-<div class="grid__item gallery_group_all gallery_group_1">
-<div class="gallery-image">
-<a href="../wp-content/uploads/2023/10/gallery-3.jpg">
-<img decoding="async" src="../wp-content/uploads/elementor/thumbs/gallery-3-qdz2mcsdc9goio2ax7vuatn4uj9nnehhoe6hmu2brc.jpg" alt="gallery-3" />
-<i class="catera-icon-plus"></i>
-</a>
-</div>
-</div>
-
-<div class="grid__item gallery_group_all gallery_group_1">
-<div class="gallery-image">
-<a href="../wp-content/uploads/2023/10/gallery-4.jpg">
-<img decoding="async" src="../wp-content/uploads/elementor/thumbs/gallery-4-qdz2mflvwrkjhhy7gr3q0aximovrahsoos4y2ny58o.jpg" alt="gallery-4" />
-<i class="catera-icon-plus"></i>
-</a>
-</div>
-</div>
-
-<div class="grid__item gallery_group_all gallery_group_1">
-<div class="gallery-image">
-<a href="../wp-content/uploads/2023/10/gallery-5.jpg">
-<img decoding="async" src="../wp-content/uploads/elementor/thumbs/gallery-5-qdz2mhhkafn44pvh5rwz5agftgmhpw05d1fx17vcw8.jpg" alt="gallery-5" />
-<i class="catera-icon-plus"></i>
-</a>
-</div>
-</div>
-
-<div class="grid__item gallery_group_all gallery_group_2">
-<div class="gallery-image">
-<a href="../wp-content/uploads/2023/10/gallery-7.jpg">
-<img decoding="async" src="../wp-content/uploads/elementor/thumbs/gallery-7-qdz2mm6r8ltjqroneby3zr9qsdzbsdit1opcfloe14.jpg" alt="gallery-7" />
-<i class="catera-icon-plus"></i>
-</a>
-</div>
-</div>
-
-<div class="grid__item gallery_group_all gallery_group_2">
-<div class="gallery-image">
-<a href="../wp-content/uploads/2023/10/gallery-9.jpg">
-<img decoding="async" src="../wp-content/uploads/elementor/thumbs/gallery-9-qdz2mpy3zxyp17j6sdkm9qbl5xgsn5xqe7bacpitc8.jpg" alt="gallery-9" />
-<i class="catera-icon-plus"></i>
-</a>
-</div>
-</div>
-
-<div class="grid__item gallery_group_all gallery_group_2">
-<div class="gallery-image">
-<a href="../wp-content/uploads/2023/10/gallery-6.jpg">
-<img decoding="async" src="../wp-content/uploads/elementor/thumbs/gallery-6-qdz2mkb2uxqz3jrdpb4uurqtlm8lczbcdfedh1r6dk.jpg" alt="gallery-6" />
-<i class="catera-icon-plus"></i>
-</a>
-</div>
-
-</div> -->
 
 </div>
 </div>
