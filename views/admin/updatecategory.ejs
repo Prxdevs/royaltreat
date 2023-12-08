@@ -34,10 +34,10 @@
         <form role="form" enctype="multipart/form-data" action="updatecategory/<%= category.id %>" method="POST">
           <h2>Update logoproduct</h2>
             <div class="box-body">
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label for="country">Country</label>
                 <input type="text" class="form-control" id="country" name="country" value="<%= category.country %>" placeholder="Enter country">
-              </div>
+              </div> -->
 
               <div class="form-group">
                 <label for="name">Name</label>
@@ -53,7 +53,10 @@
                 <select id="tag" required class="form-control" name="tag" id="pet-select">
                   <option value="popular">Popular</option>
                   <option value="birthday">Birthday</option>
-                  <option value="top attraction">Top Attraction</option>
+                  <option value="engagement">Engagement</option>
+                  <option value="official">Official</option>
+                  <option value="babyshower">Baby Shower</option>
+                  <option value="gettogether">Get Together</option>
                 </select>
                 <!-- <input type="text" required class="form-control" id="tag" name="tag" placeholder="Enter tag of category"> -->
               </div>
@@ -62,10 +65,10 @@
                 <input type="file" name="image" id="image" value="<%= category.image %>">
               </div>
               
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label for="price">Price</label>
                 <input type="text" class="form-control" id="price" name="price" value="<%= category.price %>" placeholder="Enter price of package">
-              </div>
+              </div> -->
             </div>
             <!-- /.box-body -->
 

@@ -74,12 +74,22 @@ router.get("/gallery",  async (req, res) => {
 	const category = await Category.find();
 	const footerpopular = await Category.find({ tag: 'popular' }).limit(5);
 	const footerbirthday = await Category.find({ tag: 'birthday' }).limit(5);
+	const footeranniversary = await Category.find({ tag: 'anniversary' }).limit(5);
+	const footerengagement = await Category.find({ tag: 'engagement' }).limit(5);
+	const footerofficial = await Category.find({ tag: 'official' }).limit(5);
+	const footerbabyshower = await Category.find({ tag: 'babyshower' }).limit(5);
+	const footergettogether = await Category.find({ tag: 'gettogether' }).limit(5);
 	const footertopattr = await Category.find({ tag: 'top attraction' }).limit(5);
 	res.render("gallery", {
 		activePage: 'gallery',
 		category: category,
 		footerpopular:footerpopular,
 		footerbirthday:footerbirthday,
+		footeranniversary:footeranniversary,
+		footerengagement:footerengagement,
+		footerofficial:footerofficial,
+		footerbabyshower:footerbabyshower,
+		footergettogether:footergettogether,
 		footertopattr:footertopattr,
 		
 	});

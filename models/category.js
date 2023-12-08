@@ -3,15 +3,15 @@ const mongoose = require("mongoose");
 const categorySchema = mongoose.Schema(
 	{
 		
-		country: {
-			type: String,
-		},
+		// country: {
+		// 	type: String,
+		// },
 		name: {
 			type: String,
 		},
-		price: {
-			type: String,
-		},
+		// price: {
+		// 	type: String,
+		// },
 		tag: {
 			type: String,
 		},
