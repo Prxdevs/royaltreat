@@ -661,7 +661,7 @@ body.rtl .elementor-18 .elementor-element.elementor-element-9ec80d8 {
     --gap: 0px 0px;
     --background-transition: 0.3s;
     --padding-block-start: 155px;
-    --padding-block-end: 150px;
+    /* --padding-block-end: 150px; */
     --padding-inline-start: 30px;
     --padding-inline-end: 30px
 }
@@ -669,7 +669,7 @@ body.rtl .elementor-18 .elementor-element.elementor-element-9ec80d8 {
 .elementor-18 .elementor-element.elementor-element-c5b68a0:not(.elementor-motion-effects-element-type-background),
 .elementor-18 .elementor-element.elementor-element-c5b68a0>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #fff;
-    background-image: url(https://demo2.pavothemes.com/catera/wp-content/uploads/2023/10/h1-guaranteed.png);
+    background-image: url(wp-content/partyhallimage.png);
     background-position: bottom center;
     background-repeat: no-repeat
 }
@@ -1663,7 +1663,7 @@ body.elementor-page-18>.elementor-motion-effects-container>.elementor-motion-eff
     }
 
     .elementor-18 .elementor-element.elementor-element-af2b5df {
-        --padding-block-start: 80px;
+        --padding-block-start: 50px;
         --padding-block-end: 0px;
         --padding-inline-start: 40px;
         --padding-inline-end: 0px
