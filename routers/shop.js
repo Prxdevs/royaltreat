@@ -123,8 +123,8 @@ router.get("/about", async(req, res)=>{
 router.get("/services", async(req, res)=>{
 	const footerpopular = await Category.find({ tag: 'popular' }).limit(5);
 	const footertopattr = await Category.find({ tag: 'top attraction' }).limit(5);
-	res.render("about",{
-		activePage:'about',
+	res.render("services",{
+		activePage:'services',
 		footerpopular:footerpopular,
 		footertopattr:footertopattr,
 	});
