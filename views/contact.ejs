@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en-US">
 
-<!-- Mirrored from demo2.pavothemes.com/catera/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Nov 2023 15:23:24 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="UTF-8">
@@ -261,7 +260,7 @@ Contact </h1>
 <div class="elementor-element elementor-element-8e0d914 e-con-full e-flex e-con e-child" data-id="8e0d914" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
 <div class="elementor-element elementor-element-5bce589 elementor-mobile-align-center subtitle-position-above elementor-widget elementor-widget-heading" data-id="5bce589" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<div class="elementor-heading-wrapper-inner"><h2 class="elementor-heading-title elementor-size-xxl">Get an answer to your catering question</h2></div> </div>
+<div class="elementor-heading-wrapper-inner"><h2 class="elementor-heading-title elementor-size-xxl">Get an answer to your event question</h2></div> </div>
 </div>
 <div class="elementor-element elementor-element-36a020b elementor-widget elementor-widget-text-editor" data-id="36a020b" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
@@ -279,48 +278,146 @@ We’d love to hear from you. Please tell us about the event you would like us t
 <div class="elementor-element elementor-element-d948244 e-con-full e-flex e-con e-parent" data-id="d948244" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
 <div class="elementor-element elementor-element-67d5566 elementor-absolute elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="67d5566" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img decoding="async" width="420" height="334" src="../wp-content/uploads/2023/10/img-contact-vegetable-min.png" class="attachment-full size-full wp-image-1421" alt srcset="https://demo2.pavothemes.com/catera/wp-content/uploads/2023/10/img-contact-vegetable-min.png 420w, https://demo2.pavothemes.com/catera/wp-content/uploads/2023/10/img-contact-vegetable-min-300x239.png 300w" sizes="(max-width: 420px) 100vw, 420px" /> </div>
+<img decoding="async" width="420" height="334" src="./wp-content/balloon.png" /> </div>
 </div>
 <div class="elementor-element elementor-element-d30db6b e-flex e-con-boxed e-con e-child" data-id="d30db6b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
 <div class="e-con-inner">
-<div class="elementor-element elementor-element-44c0f8c e-con-full e-flex e-con e-child" data-id="44c0f8c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;full&quot;}">
-<div class="elementor-element elementor-element-e8e3ada subtitle-position-above elementor-widget elementor-widget-heading" data-id="e8e3ada" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<div class="elementor-heading-wrapper-inner"><h2 class="elementor-heading-title elementor-size-xxl">Leave your message</h2></div> </div>
-</div>
-<div class="elementor-element elementor-element-5625a5a elementor-widget elementor-widget-catera-contactform" data-id="5625a5a" data-element_type="widget" data-widget_type="catera-contactform.default">
-<div class="elementor-widget-container">
-<div class="wpcf7 no-js" id="wpcf7-f1498-p22-o1" lang="en-US" dir="ltr">
-<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
 
-<form action="/contact" method="POST">
-	<label for="name">Name:</label>
-	<input type="text" id="name" name="name" required>
-	<br/>
-	<br/>
-	
-	<label for="email">Email:</label>
-	<input type="email" id="email" name="email" required>
-	<br/>
-	<br/>
+<!-- <div style="background-color: #ffffff; padding:3% 10% 0px; margin-top: 3%; border-radius: 3%;">
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br/>
+        <br/>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br/>
+        <br/>
 
-	<label for="phone">Phone:</label>
-	<input type="tel" id="phone" name="phone">
-	<br/>
-	<br/>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br/>
+        <br/>
 
-	<label for="message">Message:</label>
-	<textarea id="message" name="message" rows="4" required></textarea>
-	<br/>
-	<br/>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br/>
+        <br/>
 
-	<button type="submit">Submit</button>
-</form>
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+    <script>
+        function submitForm() {
+            var form = document.getElementById('myForm');
+            // var formData = new FormData(form);
+			const formData = {
+				name: document.getElementById('name').value,
+				email: document.getElementById('email').value,
+				phone: document.getElementById('phone').value,
+				message: document.getElementById('message').value
+			};
 
+            // Send form data using Fetch API
+            fetch('/contact', {
+                method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(formData),
+            })
+            .then(response => {
+                if (response.ok) {
+                    // If form submission is successful, redirect to thank you page
+                    window.location.href = '/thankyou';
+                } else {
+                    // Handle unsuccessful form submission, e.g., show an error message
+                    console.error('Form submission failed');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Handle errors if necessary
+            });
+        }
+    </script>
+</div> -->
+
+<div style="background-color: #ffffff; padding:3% 10% 0px; margin-top: 3%; border-radius: 3%;">
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br/>
+        <br/>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br/>
+        <br/>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br/>
+        <br/>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br/>
+        <br/>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <br/>
+        <br/>
+
+        <label for="slot">Slot:</label>
+        <select id="slot" name="slot">
+            <option value="slot1">Slot 1 (6:00am to 3:00pm)</option>
+            <option value="slot2">Slot 2 (3:00pm to 12:00am)</option>
+        </select>
+        <br/>
+        <br/>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+    <script>
+        function submitForm() {
+            var form = document.getElementById('myForm');
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                message: document.getElementById('message').value,
+                date: document.getElementById('date').value,
+                slot: document.getElementById('slot').value
+            };
+
+            // Send form data using Fetch API
+            fetch('/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            })
+            .then(response => {
+                if (response.ok) {
+                    // If form submission is successful, redirect to thank you page
+                    window.location.href = '/thankyou';
+                } else {
+                    // Handle unsuccessful form submission, e.g., show an error message
+                    console.error('Form submission failed');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Handle errors if necessary
+            });
+        }
+    </script>
 </div>
-</div>
-</div>
-</div>
+
+
 
 
 <div class="elementor-element elementor-element-c819b46 e-con-full e-flex e-con e-child" data-id="c819b46" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
@@ -342,7 +439,8 @@ We’d love to hear from you. Please tell us about the event you would like us t
 Office </span>
 </h3>
 <p class="elementor-icon-box-description">
-2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+	No.831,4th Floor,NGS Arcade Old Madras rd,
+    K.R.Puram, Bengaluru, Karnataka- 560036. </p>
 </div>
 </div>
 </div>
@@ -378,7 +476,7 @@ phone </span>
 email </span>
 </h3>
 <p class="elementor-icon-box-description">
-<a href="https://demo2.pavothemes.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b1d2dedfc5d0d2c5f1d4c9d0dcc1ddd49fd2dedc">[email&#160;protected]</a> </p>
+<a href="info.royaltreat01@gmail.com" class="__cf_email__" data-cfemail="b1d2dedfc5d0d2c5f1d4c9d0dcc1ddd49fd2dedc">info.royaltreat01@gmail.com</a> </p>
 </div>
 </div>
 </div>
@@ -392,7 +490,7 @@ email </span>
 <div class="elementor-element elementor-element-d987f5d elementor-widget elementor-widget-google_maps" data-id="d987f5d" data-element_type="widget" data-widget_type="google_maps.default">
 <div class="elementor-widget-container">
 <div class="elementor-custom-embed">
-<iframe loading="lazy" src="https://maps.google.com/maps?q=Chrischurch&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near" title="Chrischurch" aria-label="Chrischurch"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7644394379968!2d77.6454073740962!3d12.986912787329851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16b0f2af61b3%3A0xb7d458638b286620!2sOld%20Madras%20Rd%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1704566729111!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 </div>
 </div>
@@ -401,7 +499,7 @@ email </span>
 <div class="elementor-element elementor-element-ce55d8b e-con-full e-flex e-con e-child" data-id="ce55d8b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;position&quot;:&quot;absolute&quot;}">
 <div class="elementor-element elementor-element-e67c1b9 elementor-absolute elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="e67c1b9" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
 <div class="elementor-widget-container">
-<img decoding="async" width="319" height="220" src="../wp-content/uploads/2023/10/img-contact-vegetable2-min.png" class="attachment-full size-full wp-image-1440" alt srcset="https://demo2.pavothemes.com/catera/wp-content/uploads/2023/10/img-contact-vegetable2-min.png 319w, https://demo2.pavothemes.com/catera/wp-content/uploads/2023/10/img-contact-vegetable2-min-300x207.png 300w" sizes="(max-width: 319px) 100vw, 319px" /> </div>
+<img decoding="async" width="319" height="220" src="./wp-content/balloon.png" /> </div>
 </div>
 </div>
 </div>

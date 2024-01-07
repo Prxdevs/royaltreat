@@ -57,6 +57,20 @@ router.get("/alltours",  async (req, res) => {
 		
 	});
 });
+
+router.get("/thankyou",  async (req, res) => {
+	const category = await Category.find();
+	const footerpopular = await Category.find({ tag: 'popular' }).limit(5);
+	const footertopattr = await Category.find({ tag: 'top attraction' }).limit(5);
+	res.render("thankyou", {
+		activePage: 'thankyou',
+		category: category,
+		footerpopular:footerpopular,
+		footertopattr:footertopattr,
+		
+	});
+});
+
 router.get("/menu",  async (req, res) => {
 	const category = await Category.find();
 	const footerpopular = await Category.find({ tag: 'popular' }).limit(5);
@@ -219,6 +233,8 @@ router.post("/contact", (req,res)=>{
 		email: req.body.email,
 		message:req.body.message,
 		phone: req.body.phone,
+		date: req.body.date,
+		slot: req.body.slot,
 		
 	}
   
@@ -234,14 +250,16 @@ router.post("/contact", (req,res)=>{
 	});
 	var mailOptions = {
 		from: mailContent.email,
-		to: 'info.royaltreat01@gmail.com',
+		to: 'prxdevs@gmail.com',
 		subject: "Contact Us Message",
 		// subject: "mailContent.subject",
 		text:  "Contact Us Message \n" +
 		"\n Name :" + mailContent.name +
 		 "\n Message :"+mailContent.message  + 
 		  "\n Email id: " + mailContent.email + 
-		  "\n Phone no: " + mailContent.phone 
+		  "\n Phone no: " + mailContent.phone +
+		  "\n Date: " + mailContent.date +
+		  "\n Slot: " + mailContent.slot 
 		
 	  };
   
