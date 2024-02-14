@@ -141,7 +141,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 	
 <%- include("component/header") -%>
 
-<div class="breadcrumb-wrap"> <div data-elementor-type="wp-post" data-elementor-id="991" class="elementor elementor-991">
+<div class="breadcrumb-wrap"> 
+<div data-elementor-type="wp-post" data-elementor-id="991" class="elementor elementor-991">
 <div class="elementor-element elementor-element-2e96f92 e-con-full e-flex e-con e-parent" data-id="2e96f92" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
 <div class="elementor-element elementor-element-bc6981f elementor-widget elementor-widget-catera-breadcrumb" data-id="bc6981f" data-element_type="widget" data-widget_type="catera-breadcrumb.default">
 <div class="elementor-widget-container">
@@ -1019,7 +1020,12 @@ Call us now <span style="color: #09574a; font-weight:600">+1800 &#8211; 123 456 
 </ul>
 </div>
 <nav class="mobile-menu-tab mobile-navigation mobile-pages-menu active" aria-label="Mobile Navigation">
-<div class="handheld-navigation"><ul id="menu-main-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-18 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-129"><a href="index.html" aria-current="page">Home</a>
+<div class="handheld-navigation">
+
+<ul id="menu-main-menu" class="menu">
+
+	<%- include("component/mobileHeader") -%>
+<!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-18 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-129"><a href="index.html" aria-current="page">Home</a>
 <ul class="sub-menu">
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-18 current_page_item menu-item-122"><a href="index.html" aria-current="page">Home 1</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130"><a href="home-2/index.html">Home 2</a></li>
@@ -1062,9 +1068,12 @@ Call us now <span style="color: #09574a; font-weight:600">+1800 &#8211; 123 456 
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587"><a href="/contact">Contact</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1273"><a href="404.html">404</a></li>
 </ul>
-</li>
-</ul></div> </nav>
-<nav class="mobile-menu-tab mobile-navigation-categories mobile-categories-menu" aria-label="Mobile Navigation">
+</li> -->
+</ul>
+
+
+</div> </nav>
+<!-- <nav class="mobile-menu-tab mobile-navigation-categories mobile-categories-menu" aria-label="Mobile Navigation">
 <div class="menu"><ul>
 <li class="current_page_item"><a href="index.html">Home</a></li><li class="page_item page-item-23"><a href="about-us/index.html">About Us</a></li>
 <li class="page_item page-item-21"><a href="blog/index.html">Blog</a></li>
@@ -1081,37 +1090,7 @@ Call us now <span style="color: #09574a; font-weight:600">+1800 &#8211; 123 456 
 <li class="page_item page-item-26"><a href="services/index.html">Services</a></li>
 <li class="page_item page-item-27"><a href="venue/index.html">Venues</a></li>
 </ul></div>
-</nav>
-</div>
-<div class="catera-language-switcher-mobile">
-<ul class="menu">
-<li class="item">
-<div class="language-switcher-head">
-<img src="wp-content/themes/catera/assets/images/language-switcher/en.jpg" alt="WPML">
-</div>
-</li>
-<li class="item">
-<div class="language-switcher-img">
-<a href="#">
-<img src="wp-content/themes/catera/assets/images/language-switcher/de.jpg" alt="WPML">
-</a>
-</div>
-</li>
-<li class="item">
-<div class="language-switcher-img">
-<a href="#">
-<img src="wp-content/themes/catera/assets/images/language-switcher/it.jpg" alt="WPML">
-</a>
-</div>
-</li>
-<li class="item">
-<div class="language-switcher-img">
-<a href="#">
-<img src="wp-content/themes/catera/assets/images/language-switcher/hi.jpg" alt="WPML">
-</a>
-</div>
-</li>
-</ul>
+</nav> -->
 </div>
 </div>
 <div class="catera-overlay"></div>
