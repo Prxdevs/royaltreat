@@ -2,10 +2,10 @@
     "use strict";
     $(window).on('elementor/frontend/init', () => {
         const addHandler = ($element) => {
-            elementorFrontend.elementsHandler.addHandler(royaltreattSwiperBase, {
+            elementorFrontend.elementsHandler.addHandler(cateraSwiperBase, {
                 $element,
             })
         }
-        elementorFrontend.hooks.addAction('frontend/element_ready/royaltreatt-image-carousel.default', addHandler);
+        elementorFrontend.hooks.addAction('frontend/element_ready/catera-image-carousel.default', addHandler);
     })
 })(jQuery);

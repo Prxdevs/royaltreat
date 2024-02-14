@@ -406,36 +406,36 @@
     color: var(--e-global-color-text)
 }
 
-.elementor-widget-royaltreatt-cate-image .elementor-cate-images-title .cate-title {
+.elementor-widget-catera-cate-image .elementor-cate-images-title .cate-title {
     font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
     font-weight: var(--e-global-typography-secondary-font-weight)
 }
 
-.elementor-widget-royaltreatt-cate-image .elementor-cate-number .number {
+.elementor-widget-catera-cate-image .elementor-cate-number .number {
     font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
     font-weight: var(--e-global-typography-secondary-font-weight)
 }
 
-.elementor-widget-royaltreatt-icon-box.elementor-view-stacked .elementor-icon {
+.elementor-widget-catera-icon-box.elementor-view-stacked .elementor-icon {
     background-color: var(--e-global-color-primary)
 }
 
-.elementor-widget-royaltreatt-icon-box.elementor-view-framed .elementor-icon,
-.elementor-widget-royaltreatt-icon-box.elementor-view-default .elementor-icon {
+.elementor-widget-catera-icon-box.elementor-view-framed .elementor-icon,
+.elementor-widget-catera-icon-box.elementor-view-default .elementor-icon {
     fill: var(--e-global-color-primary);
     color: var(--e-global-color-primary);
     border-color: var(--e-global-color-primary)
 }
 
-.elementor-widget-royaltreatt-icon-box .elementor-icon-box-title {
+.elementor-widget-catera-icon-box .elementor-icon-box-title {
     color: var(--e-global-color-primary)
 }
 
-.elementor-widget-royaltreatt-icon-box .elementor-icon-box-title a {
+.elementor-widget-catera-icon-box .elementor-icon-box-title a {
     color: var(--e-global-color-primary)
 }
 
-.elementor-widget-royaltreatt-icon-box .elementor-icon-box-description {
+.elementor-widget-catera-icon-box .elementor-icon-box-description {
     color: var(--e-global-color-text)
 }
 

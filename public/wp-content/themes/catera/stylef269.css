@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
-/*!Theme Name: royaltreatt
-Theme URI: http://demo2.pavothemes.com/royaltreatt/
+/*!Theme Name: Catera
+Theme URI: http://demo2.pavothemes.com/catera/
 Author: Pavothemes
 Author URI: http://pavothemes.com/
-Description: royaltreatt is an exquisite and highly versatile WordPress theme designed to elevate the online presence of catering and event planning businesses. This theme seamlessly combines style and functionality to create a virtual showcase for your catering and event planning services
+Description: Catera is an exquisite and highly versatile WordPress theme designed to elevate the online presence of catering and event planning businesses. This theme seamlessly combines style and functionality to create a virtual showcase for your catering and event planning services
 Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: royaltreatt
+Text Domain: catera
 Tags: Catering Theme, Event Planning, Event Management, Wedding Catering, Corporate Events, Culinary Delights, Mobile-Friendly, Responsive Design, WordPress Theme, Customization Options, Client Testimonials, Service Showcase, Event Coordination, Party Planning, Event Decorations*/
 html {
     font-family: sans-serif;
@@ -498,7 +498,7 @@ blockquote {
 }
 
 blockquote:after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -674,7 +674,7 @@ a:hover {
     outline: none
 }
 
-.royaltreatt-cute * {
+.catera-cute * {
     font-family: comic sans ms, sans-serif
 }
 
@@ -693,7 +693,7 @@ body.loading {
 }
 
 body.loading::after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -791,8 +791,8 @@ body.woocommerce-cart #page .site-content {
     margin-top: 0
 }
 
-body.home #page .royaltreatt-breadcrumb,
-body.error404 #page .royaltreatt-breadcrumb {
+body.home #page .catera-breadcrumb,
+body.error404 #page .catera-breadcrumb {
     display: none
 }
 
@@ -1380,7 +1380,7 @@ body.error404 #page .royaltreatt-breadcrumb {
     text-align: right
 }
 
-.site-header-account .account-dropdown .royaltreatt-login-form-ajax {
+.site-header-account .account-dropdown .catera-login-form-ajax {
     margin-bottom: 5px
 }
 
@@ -1556,7 +1556,7 @@ body.error404 #page .royaltreatt-breadcrumb {
     font-size: 22px;
     font-size: 1.375rem;
     color: var(--e-global-color-secondary);
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -1912,7 +1912,7 @@ body.error404 #page .royaltreatt-breadcrumb {
     }
 }
 
-.royaltreatt-mobile-nav {
+.catera-mobile-nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1930,47 +1930,47 @@ body.error404 #page .royaltreatt-breadcrumb {
     transform: translate3d(-330px, 0, 0)
 }
 
-.mobile-nav-active .royaltreatt-mobile-nav {
+.mobile-nav-active .catera-mobile-nav {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
 }
 
-.admin-bar .royaltreatt-mobile-nav {
+.admin-bar .catera-mobile-nav {
     top: 46px
 }
 
 @media(min-width:783px) {
-    .admin-bar .royaltreatt-mobile-nav {
+    .admin-bar .catera-mobile-nav {
         top: 32px
     }
 }
 
 @media(min-width:601px) and (max-width:782px) {
-    .admin-bar .royaltreatt-mobile-nav {
+    .admin-bar .catera-mobile-nav {
         top: 46px
     }
 }
 
-.royaltreatt-mobile-nav .search-form {
+.catera-mobile-nav .search-form {
     margin-top: 1em
 }
 
-.royaltreatt-mobile-nav .royaltreatt-social {
+.catera-mobile-nav .catera-social {
     border-top: 1px solid #0e0e0e;
     padding: .5em;
     margin-top: 1rem
 }
 
-body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
+body .catera-mobile-nav .catera-social ul li a:before {
     color: #fff
 }
 
-.royaltreatt-mobile-nav .royaltreatt-language-switcher-mobile {
+.catera-mobile-nav .catera-language-switcher-mobile {
     line-height: 0;
     padding: 0 30px
 }
 
-.royaltreatt-mobile-nav .royaltreatt-language-switcher-mobile .menu {
+.catera-mobile-nav .catera-language-switcher-mobile .menu {
     list-style: none;
     margin: 0;
     padding: 10px 0;
@@ -1978,37 +1978,37 @@ body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
     border-top-color: var(--e-global-color-border)
 }
 
-.royaltreatt-mobile-nav .royaltreatt-language-switcher-mobile .item {
+.catera-mobile-nav .catera-language-switcher-mobile .item {
     display: inline-block;
     margin-bottom: 5px;
     margin-top: 5px
 }
 
-.royaltreatt-mobile-nav .royaltreatt-language-switcher-mobile .item .language-switcher-head {
+.catera-mobile-nav .catera-language-switcher-mobile .item .language-switcher-head {
     padding-right: 5px
 }
 
-.royaltreatt-mobile-nav .royaltreatt-language-switcher-mobile .item a {
+.catera-mobile-nav .catera-language-switcher-mobile .item a {
     display: block;
     padding: 0 5px
 }
 
-.royaltreatt-mobile-nav .royaltreatt-language-switcher-mobile .item:last-child {
+.catera-mobile-nav .catera-language-switcher-mobile .item:last-child {
     margin-right: 0
 }
 
-.royaltreatt-mobile-nav .royaltreatt-language-switcher-mobile .item img {
+.catera-mobile-nav .catera-language-switcher-mobile .item img {
     width: 24px;
     height: 16px;
     object-fit: cover
 }
 
-.royaltreatt-mobile-nav .mobile-nav-tabs {
+.catera-mobile-nav .mobile-nav-tabs {
     clear: both;
     padding: 0 30px
 }
 
-.royaltreatt-mobile-nav .mobile-nav-tabs ul {
+.catera-mobile-nav .mobile-nav-tabs ul {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -2016,7 +2016,7 @@ body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
     margin: 0
 }
 
-.royaltreatt-mobile-nav .mobile-nav-tabs ul li {
+.catera-mobile-nav .mobile-nav-tabs ul li {
     display: flex;
     align-items: center;
     position: relative;
@@ -2032,14 +2032,14 @@ body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
     text-transform: uppercase
 }
 
-.royaltreatt-mobile-nav .mobile-nav-tabs ul li i {
+.catera-mobile-nav .mobile-nav-tabs ul li i {
     color: #000;
     font-size: 15px;
     font-size: .9375rem;
     margin-right: 10px
 }
 
-.royaltreatt-mobile-nav .mobile-nav-tabs ul li:before {
+.catera-mobile-nav .mobile-nav-tabs ul li:before {
     content: "";
     display: inline-block;
     position: absolute;
@@ -2056,7 +2056,7 @@ body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
     background-color: var(--e-global-color-primary)
 }
 
-.royaltreatt-mobile-nav .mobile-nav-tabs ul li.active:before {
+.catera-mobile-nav .mobile-nav-tabs ul li.active:before {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
@@ -2064,20 +2064,20 @@ body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
     transform: scale(1)
 }
 
-.royaltreatt-mobile-nav .mobile-nav-tabs ul .mobile-pages-title {
+.catera-mobile-nav .mobile-nav-tabs ul .mobile-pages-title {
     margin-right: 15px
 }
 
-.royaltreatt-mobile-nav .mobile-nav-tabs ul .mobile-categories-title {
+.catera-mobile-nav .mobile-nav-tabs ul .mobile-categories-title {
     margin-left: 15px
 }
 
-.royaltreatt-mobile-nav .mobile-menu-tab {
+.catera-mobile-nav .mobile-menu-tab {
     display: none;
     padding: 0 30px
 }
 
-.royaltreatt-mobile-nav .mobile-menu-tab.active {
+.catera-mobile-nav .mobile-menu-tab.active {
     display: block
 }
 
@@ -2101,7 +2101,7 @@ body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
     color: var(--e-global-color-secondary)
 }
 
-.royaltreatt-overlay {
+.catera-overlay {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -2115,12 +2115,12 @@ body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
     transition: opacity .25s ease, visibility 0s ease
 }
 
-.mobile-nav-active .royaltreatt-overlay {
+.mobile-nav-active .catera-overlay {
     visibility: visible;
     opacity: 1
 }
 
-.royaltreatt-info-button,
+.catera-info-button,
 .menu-mobile-nav-button {
     display: block;
     font-size: 15px;
@@ -2130,21 +2130,21 @@ body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
 
 @media(min-width:1024px) {
 
-    .royaltreatt-info-button,
+    .catera-info-button,
     .menu-mobile-nav-button {
         display: none
     }
 }
 
-.royaltreatt-info-button .royaltreatt-icon,
-.menu-mobile-nav-button .royaltreatt-icon {
+.catera-info-button .catera-icon,
+.menu-mobile-nav-button .catera-icon {
     display: flex;
     flex-direction: column;
     width: 18px
 }
 
-.royaltreatt-info-button .royaltreatt-icon>span,
-.menu-mobile-nav-button .royaltreatt-icon>span {
+.catera-info-button .catera-icon>span,
+.menu-mobile-nav-button .catera-icon>span {
     display: inline-block;
     height: 2px;
     width: 13px;
@@ -2154,36 +2154,36 @@ body .royaltreatt-mobile-nav .royaltreatt-social ul li a:before {
     background-color: var(--e-global-color-secondary)
 }
 
-.royaltreatt-info-button .royaltreatt-icon>span:last-child,
-.menu-mobile-nav-button .royaltreatt-icon>span:last-child {
+.catera-info-button .catera-icon>span:last-child,
+.menu-mobile-nav-button .catera-icon>span:last-child {
     margin-bottom: 0
 }
 
-.royaltreatt-info-button .royaltreatt-icon .icon-2,
-.menu-mobile-nav-button .royaltreatt-icon .icon-2 {
+.catera-info-button .catera-icon .icon-2,
+.menu-mobile-nav-button .catera-icon .icon-2 {
     width: 13px;
     margin-left: 2px
 }
 
-.royaltreatt-info-button .royaltreatt-icon .icon-3,
-.menu-mobile-nav-button .royaltreatt-icon .icon-3 {
+.catera-info-button .catera-icon .icon-3,
+.menu-mobile-nav-button .catera-icon .icon-3 {
     width: 13px
 }
 
-.royaltreatt-info-button:hover .royaltreatt-icon>span,
-.menu-mobile-nav-button:hover .royaltreatt-icon>span {
+.catera-info-button:hover .catera-icon>span,
+.menu-mobile-nav-button:hover .catera-icon>span {
     background-color: var(--e-global-color-primary)
 }
 
-.royaltreatt-info-button:hover .royaltreatt-icon .icon-2,
-.menu-mobile-nav-button:hover .royaltreatt-icon .icon-2 {
+.catera-info-button:hover .catera-icon .icon-2,
+.menu-mobile-nav-button:hover .catera-icon .icon-2 {
     margin-left: 0
 }
 
-.royaltreatt-info-button:hover .royaltreatt-icon .icon-1,
-.royaltreatt-info-button:hover .royaltreatt-icon .icon-3,
-.menu-mobile-nav-button:hover .royaltreatt-icon .icon-1,
-.menu-mobile-nav-button:hover .royaltreatt-icon .icon-3 {
+.catera-info-button:hover .catera-icon .icon-1,
+.catera-info-button:hover .catera-icon .icon-3,
+.menu-mobile-nav-button:hover .catera-icon .icon-1,
+.menu-mobile-nav-button:hover .catera-icon .icon-3 {
     margin-left: 2px
 }
 
@@ -2351,7 +2351,7 @@ ul.menu li.current-menu-parent>a {
 }
 
 .main-navigation ul.menu>li.menu-item>a:after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -2419,7 +2419,7 @@ ul.menu li.current-menu-parent>a {
 .main-navigation ul.sub-menu li.menu-item.has-mega-menu>a:after,
 .main-navigation ul.sub-menu li.menu-item.page_item_has_children>a:after,
 .main-navigation ul.sub-menu li.menu-item.menu-item-has-children>a:after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -2608,7 +2608,7 @@ ul.menu li.current-menu-parent>a {
 
 .mobile-navigation ul button::after,
 .mobile-navigation-categories ul button::after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -2622,7 +2622,7 @@ ul.menu li.current-menu-parent>a {
 
 .mobile-navigation ul button.toggled-on::after,
 .mobile-navigation-categories ul button.toggled-on::after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -2689,7 +2689,7 @@ ul.menu li.current-menu-parent>a {
     width: 330px
 }
 
-.vertical-navigation .vertical-navigation-header .royaltreatt-icon {
+.vertical-navigation .vertical-navigation-header .catera-icon {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -2698,8 +2698,8 @@ ul.menu li.current-menu-parent>a {
     position: relative
 }
 
-.vertical-navigation .vertical-navigation-header .royaltreatt-icon::after {
-    font-family: royaltreatt-icon;
+.vertical-navigation .vertical-navigation-header .catera-icon::after {
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -2839,7 +2839,7 @@ ul.menu li.current-menu-parent>a {
 }
 
 .vertical-navigation .vertical-menu li.has-mega-menu>a:after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -3019,7 +3019,7 @@ ul.menu li.current-menu-parent>a {
     display: none
 }
 
-.vertical-style-2 .vertical-navigation .vertical-navigation-header .royaltreatt-icon {
+.vertical-style-2 .vertical-navigation .vertical-navigation-header .catera-icon {
     display: none
 }
 
@@ -3067,17 +3067,17 @@ ul.menu li.current-menu-parent>a {
     width: 100vw
 }
 
-.single-royaltreatt_menu_item .elementor-icon-list-items li,
+.single-catera_menu_item .elementor-icon-list-items li,
 .mega-menu .elementor-icon-list-items li {
     font-weight: var(--e-global-typography-text-font-weight)
 }
 
-.single-royaltreatt_menu_item .elementor-icon-list-items li a,
+.single-catera_menu_item .elementor-icon-list-items li a,
 .mega-menu .elementor-icon-list-items li a {
     color: var(--e-global-color-text)
 }
 
-.single-royaltreatt_menu_item .elementor-icon-list-items li a:hover,
+.single-catera_menu_item .elementor-icon-list-items li a:hover,
 .mega-menu .elementor-icon-list-items li a:hover {
     color: var(--e-global-color-primary)
 }
@@ -3498,7 +3498,7 @@ p {
     border-color: var(--e-global-color-primary)
 }
 
-.royaltreatt-social-share {
+.catera-social-share {
     display: flex;
     grid-column-gap: 8px;
     align-items: center
@@ -3564,7 +3564,7 @@ p {
 }
 
 .more-link-wrap .more-link:after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -3753,13 +3753,13 @@ figcaption {
     margin-right: auto
 }
 
-.single-post .hentry.royaltreatt-full-width-content .entry-header,
-.page .hentry.royaltreatt-full-width-content .entry-header {
+.single-post .hentry.catera-full-width-content .entry-header,
+.page .hentry.catera-full-width-content .entry-header {
     text-align: center
 }
 
-.single-post .hentry.royaltreatt-full-width-content .entry-content .content-full-width,
-.page .hentry.royaltreatt-full-width-content .entry-content .content-full-width {
+.single-post .hentry.catera-full-width-content .entry-content .content-full-width,
+.page .hentry.catera-full-width-content .entry-content .content-full-width {
     max-width: 100%
 }
 
@@ -3934,7 +3934,7 @@ a.remove {
 }
 
 a.remove::before {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -3961,7 +3961,7 @@ a.remove::before {
     }
 }
 
-.post-type-archive-royaltreatt_service .site-content .col-full {
+.post-type-archive-catera_service .site-content .col-full {
     max-width: 1760px
 }
 
@@ -4053,7 +4053,7 @@ a.remove::before {
     text-transform: uppercase
 }
 
-.post-type-archive-royaltreatt_menu {
+.post-type-archive-catera_menu {
     background-color: #f6f0ea
 }
 
@@ -4126,7 +4126,7 @@ a.remove::before {
     color: #fff
 }
 
-.post-type-archive-royaltreatt_venue {
+.post-type-archive-catera_venue {
     background-color: #f6f0ea
 }
 
@@ -4248,7 +4248,7 @@ a.remove::before {
     justify-content: center
 }
 
-.royaltreatt-footer-builder .site-footer {
+.catera-footer-builder .site-footer {
     padding-top: 0
 }
 
@@ -4335,7 +4335,7 @@ a.remove::before {
 }
 
 .scrollup .scrollup-icon:before {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -4939,7 +4939,7 @@ table tr {
 }
 
 #comments .bypostauthor>.comment-body cite::after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -5095,7 +5095,7 @@ table tr {
 }
 
 #commentform .submit:after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -5174,7 +5174,7 @@ table tr {
 .sticky #respond #cancel-comment-reply-link:before {
     font-size: 20px;
     font-size: 1.25rem;
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -5354,7 +5354,7 @@ input[type=button].loading::after,
 input[type=reset].loading::after,
 input[type=submit].loading::after,
 .button.loading::after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -5928,7 +5928,7 @@ nav.post-navigation .nav-previous .reader-text {
 }
 
 nav.post-navigation .nav-previous .reader-text:before {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -5955,7 +5955,7 @@ nav.post-navigation .nav-next .reader-text {
 }
 
 nav.post-navigation .nav-next .reader-text:after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -5987,19 +5987,19 @@ nav.post-navigation .nav-next .nav-content {
     }
 }
 
-#secondary .royaltreatt-widget-woocommerce .wp-block-group__inner-container>h2,
-#secondary .royaltreatt-widget-woocommerce .widget-title,
-#secondary .royaltreatt-widget-woocommerce .widgettitle {
+#secondary .catera-widget-woocommerce .wp-block-group__inner-container>h2,
+#secondary .catera-widget-woocommerce .widget-title,
+#secondary .catera-widget-woocommerce .widgettitle {
     display: flex;
     align-items: center;
     justify-content: space-between
 }
 
-#secondary .royaltreatt-widget-woocommerce .wp-block-group__inner-container>h2:after,
-#secondary .royaltreatt-widget-woocommerce .widget-title:after,
-#secondary .royaltreatt-widget-woocommerce .widgettitle:after {
+#secondary .catera-widget-woocommerce .wp-block-group__inner-container>h2:after,
+#secondary .catera-widget-woocommerce .widget-title:after,
+#secondary .catera-widget-woocommerce .widgettitle:after {
     margin-left: 11px;
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -6015,15 +6015,15 @@ nav.post-navigation .nav-next .nav-content {
     transform: rotate(0deg)
 }
 
-#secondary .royaltreatt-widget-woocommerce .wp-block-group__inner-container>h2.toggled-on,
-#secondary .royaltreatt-widget-woocommerce .widget-title.toggled-on,
-#secondary .royaltreatt-widget-woocommerce .widgettitle.toggled-on {
+#secondary .catera-widget-woocommerce .wp-block-group__inner-container>h2.toggled-on,
+#secondary .catera-widget-woocommerce .widget-title.toggled-on,
+#secondary .catera-widget-woocommerce .widgettitle.toggled-on {
     color: var(--accent)
 }
 
-#secondary .royaltreatt-widget-woocommerce .wp-block-group__inner-container>h2.toggled-on:after,
-#secondary .royaltreatt-widget-woocommerce .widget-title.toggled-on:after,
-#secondary .royaltreatt-widget-woocommerce .widgettitle.toggled-on:after {
+#secondary .catera-widget-woocommerce .wp-block-group__inner-container>h2.toggled-on:after,
+#secondary .catera-widget-woocommerce .widget-title.toggled-on:after,
+#secondary .catera-widget-woocommerce .widgettitle.toggled-on:after {
     transform: rotate(180deg)
 }
 
@@ -6095,7 +6095,7 @@ nav.post-navigation .nav-next .nav-content {
 .widget .widget-title:after,
 .widget .widgettitle:after {
     margin-left: 11px;
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -6321,7 +6321,7 @@ nav.post-navigation .nav-next .nav-content {
 .widget_search form:before,
 .widget_product_search form:before,
 .site-search form:before {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -6591,21 +6591,21 @@ nav.post-navigation .nav-next .nav-content {
     color: #fff
 }
 
-.royaltreatt-canvas-filter .widget h1.widget-title,
+.catera-canvas-filter .widget h1.widget-title,
 .widget-area .widget h1.widget-title {
     font-size: 1.41577975em
 }
 
-.royaltreatt-canvas-filter .royaltreatt-canvas-filter-wrap .widget_layered_nav ul {
+.catera-canvas-filter .catera-canvas-filter-wrap .widget_layered_nav ul {
     margin-left: 0
 }
 
-.royaltreatt-canvas-filter .royaltreatt-canvas-filter-wrap .widget_layered_nav ul li {
+.catera-canvas-filter .catera-canvas-filter-wrap .widget_layered_nav ul li {
     padding-left: 1.618034em
 }
 
-.royaltreatt-canvas-filter .royaltreatt-canvas-filter-wrap .widget_layered_nav ul li::before {
-    font-family: royaltreatt-icon;
+.catera-canvas-filter .catera-canvas-filter-wrap .widget_layered_nav ul li::before {
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -6622,15 +6622,15 @@ nav.post-navigation .nav-next .nav-content {
     width: 1em
 }
 
-.royaltreatt-canvas-filter .royaltreatt-canvas-filter-wrap .widget_layered_nav ul li .children {
+.catera-canvas-filter .catera-canvas-filter-wrap .widget_layered_nav ul li .children {
     margin-left: 0
 }
 
-.royaltreatt-canvas-filter .royaltreatt-canvas-filter-wrap .widget_layered_nav li::before {
+.catera-canvas-filter .catera-canvas-filter-wrap .widget_layered_nav li::before {
     content: ""
 }
 
-.royaltreatt-canvas-filter .royaltreatt-canvas-filter-wrap .widget_layered_nav .chosen::before {
+.catera-canvas-filter .catera-canvas-filter-wrap .widget_layered_nav .chosen::before {
     content: ""
 }
 
@@ -6692,7 +6692,7 @@ body.elementor-page .site-main {
 
 .woocommerce-page .ship_address .gift-form label::after,
 .woocommerce-page .no_shipping_address .gift-form label::after {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -6707,7 +6707,7 @@ body.elementor-page .site-main {
 
 .woocommerce-page .ship_address .modify-address-button::before,
 .woocommerce-page .no_shipping_address .modify-address-button::before {
-    font-family: royaltreatt-icon;
+    font-family: catera-icon;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -6758,10 +6758,10 @@ body.elementor-page .site-main {
         margin-right: 0
     }
 
-    .royaltreatt-content-width-wide .royaltreatt-sorting-wrapper,
-    .royaltreatt-content-width-wide #page .site-content,
-    .royaltreatt-content-width-wide [data-elementor-type=wp-post] .e-con-boxed,
-    .royaltreatt-content-width-wide .elementor-section.elementor-section-boxed {
+    .catera-content-width-wide .catera-sorting-wrapper,
+    .catera-content-width-wide #page .site-content,
+    .catera-content-width-wide [data-elementor-type=wp-post] .e-con-boxed,
+    .catera-content-width-wide .elementor-section.elementor-section-boxed {
         padding-left: 30px;
         padding-right: 30px
     }
@@ -6810,17 +6810,17 @@ body.elementor-page .site-main {
         clear: both
     }
 
-    .royaltreatt-primary-navigation {
+    .catera-primary-navigation {
         clear: both
     }
 
-    .royaltreatt-primary-navigation::before,
-    .royaltreatt-primary-navigation::after {
+    .catera-primary-navigation::before,
+    .catera-primary-navigation::after {
         content: "";
         display: table
     }
 
-    .royaltreatt-primary-navigation::after {
+    .catera-primary-navigation::after {
         clear: both
     }
 
@@ -6864,7 +6864,7 @@ body.elementor-page .site-main {
         clear: both
     }
 
-    .copyright-bar .royaltreatt-social {
+    .copyright-bar .catera-social {
         text-align: left;
         margin: 0
     }
@@ -6905,38 +6905,38 @@ body.elementor-page .site-main {
         clear: both
     }
 
-    [class*=royaltreatt-sidebar-] .content-area {
+    [class*=catera-sidebar-] .content-area {
         width: calc(100% - 355px);
         float: right
     }
 
-    .woocommerce[class*=royaltreatt-sidebar-] .content-area {
+    .woocommerce[class*=catera-sidebar-] .content-area {
         width: calc(100% - 355px);
         float: right
     }
 
-    .royaltreatt-sidebar-left .content-area {
+    .catera-sidebar-left .content-area {
         float: right;
         padding-left: 55px;
         border-left: 1px solid var(--e-global-color-border)
     }
 
-    .royaltreatt-sidebar-right .content-area {
+    .catera-sidebar-right .content-area {
         float: left;
         padding-right: 55px;
         border-right: 1px solid var(--e-global-color-border)
     }
 
-    [class*=royaltreatt-sidebar-] .widget-area {
+    [class*=catera-sidebar-] .widget-area {
         width: 300px;
         float: left
     }
 
-    .royaltreatt-sidebar-left .widget-area {
+    .catera-sidebar-left .widget-area {
         float: left
     }
 
-    .royaltreatt-sidebar-right .widget-area {
+    .catera-sidebar-right .widget-area {
         float: right
     }
 
@@ -6948,31 +6948,31 @@ body.elementor-page .site-main {
         float: right
     }
 
-    .royaltreatt-content-width-wide .elementor-section.elementor-section-boxed>.elementor-container,
-    .royaltreatt-content-width-wide .col-full {
+    .catera-content-width-wide .elementor-section.elementor-section-boxed>.elementor-container,
+    .catera-content-width-wide .col-full {
         max-width: 100%
     }
 
-    .royaltreatt-content-width-wide .royaltreatt-sorting-wrapper,
-    .royaltreatt-content-width-wide #page .site-content,
-    .royaltreatt-content-width-wide [data-elementor-type=wp-post] .e-con-boxed,
-    .royaltreatt-content-width-wide .elementor-section.elementor-section-boxed {
+    .catera-content-width-wide .catera-sorting-wrapper,
+    .catera-content-width-wide #page .site-content,
+    .catera-content-width-wide [data-elementor-type=wp-post] .e-con-boxed,
+    .catera-content-width-wide .elementor-section.elementor-section-boxed {
         padding-left: 60px;
         padding-right: 60px
     }
 
-    .royaltreatt-content-width-wide .e-con {
+    .catera-content-width-wide .e-con {
         --container-max-width: 100%
     }
 
-    .woocommerce-page.royaltreatt-full-width-content .content-area {
+    .woocommerce-page.catera-full-width-content .content-area {
         width: 100%;
         float: left;
         margin-left: 0;
         margin-right: 0
     }
 
-    .royaltreatt-full-width-content .content-area {
+    .catera-full-width-content .content-area {
         width: 100%;
         float: left;
         margin-left: 0;
@@ -7171,7 +7171,7 @@ body.elementor-page .site-main {
     text-align: right
 }
 
-.royaltreatt-social-share {
+.catera-social-share {
     color: var(--e-global-color-secondary);
     font-family: var(--e-global-typography-accent-font-family);
     font-weight: var(--e-global-typography-accent-font-weight);
@@ -7185,25 +7185,25 @@ body.elementor-page .site-main {
     font-size: .75rem
 }
 
-.royaltreatt-social-share i {
+.catera-social-share i {
     font-size: 16px;
     font-size: 1rem
 }
 
-.royaltreatt-social-share .social-share-header {
+.catera-social-share .social-share-header {
     color: var(--e-global-color-secondary)
 }
 
-.royaltreatt-social-share a {
+.catera-social-share a {
     padding-left: 5px;
     padding-right: 5px
 }
 
-.royaltreatt-social-share a:hover {
+.catera-social-share a:hover {
     color: var(--e-global-color-primary)
 }
 
-.royaltreatt-social-share a span {
+.catera-social-share a span {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
     -webkit-clip-path: inset(50%);
@@ -7217,7 +7217,7 @@ body.elementor-page .site-main {
     word-wrap: normal !important
 }
 
-.royaltreatt-social-share a span:focus {
+.catera-social-share a span:focus {
     background-color: #f1f1f1;
     color: #21759b;
     border-radius: 50px;
@@ -7245,23 +7245,23 @@ body.elementor-page .site-main {
     z-index: 100000
 }
 
-.royaltreatt-social-share a:last-child {
+.catera-social-share a:last-child {
     padding-right: 0
 }
 
-.single-product .royaltreatt-social-share {
+.single-product .catera-social-share {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 22px
 }
 
-.single-product .royaltreatt-social-share .social-share-header {
+.single-product .catera-social-share .social-share-header {
     display: block;
     margin-right: 18px
 }
 
-.single-product .royaltreatt-social-share a {
+.single-product .catera-social-share a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7276,32 +7276,32 @@ body.elementor-page .site-main {
     background-color: var(--e-global-color-primary)
 }
 
-.single-product .royaltreatt-social-share a.social-facebook {
+.single-product .catera-social-share a.social-facebook {
     background-color: #3b5998
 }
 
-.single-product .royaltreatt-social-share a.social-twitter {
+.single-product .catera-social-share a.social-twitter {
     background-color: #1da1f2
 }
 
-.single-product .royaltreatt-social-share a.social-linkedin {
+.single-product .catera-social-share a.social-linkedin {
     background-color: #0077b5
 }
 
-.single-product .royaltreatt-social-share a.social-google {
+.single-product .catera-social-share a.social-google {
     background-color: #787c80
 }
 
-.single-product .royaltreatt-social-share a.social-pinterest {
+.single-product .catera-social-share a.social-pinterest {
     background-color: #e60023
 }
 
-.single-product .royaltreatt-social-share a i {
+.single-product .catera-social-share a i {
     font-size: 12px;
     font-size: .75rem
 }
 
-.royaltreatt-av-overlay {
+.catera-av-overlay {
     background: rgba(0, 0, 0, .9);
     box-sizing: border-box;
     cursor: wait;
@@ -7316,7 +7316,7 @@ body.elementor-page .site-main {
     z-index: 99998
 }
 
-.royaltreatt-av {
+.catera-av {
     background-color: #fff;
     border-radius: 0;
     box-shadow: 0 0 15px #000;
@@ -7332,12 +7332,12 @@ body.elementor-page .site-main {
 }
 
 @media(min-width:768px) {
-    .royaltreatt-av {
+    .catera-av {
         padding: 80px
     }
 }
 
-.royaltreatt-av h2 {
+.catera-av h2 {
     border-bottom: 1px solid #ccc;
     box-sizing: border-box;
     font-size: 36px;
@@ -7345,30 +7345,30 @@ body.elementor-page .site-main {
     padding-bottom: 12px
 }
 
-.royaltreatt-av img {
+.catera-av img {
     margin: 0 auto 20px
 }
 
-.royaltreatt-av p {
+.catera-av p {
     box-sizing: border-box
 }
 
-.royaltreatt-av p:last-child {
+.catera-av p:last-child {
     margin-bottom: 0
 }
 
-.royaltreatt-av p strong {
+.catera-av p strong {
     color: var(--e-global-color-primary)
 }
 
-.royaltreatt-av .royaltreatt-av-description {
+.catera-av .catera-av-description {
     font-size: 14px;
     font-size: .875rem;
     color: var(--e-global-color-secondary);
     margin-bottom: 30px
 }
 
-.royaltreatt-av .royaltreatt-av-copy {
+.catera-av .catera-av-copy {
     font-size: 20px;
     font-size: 1.25rem;
     font-family: var(--e-global-typography-secondary-font-family);
@@ -7383,17 +7383,17 @@ body.elementor-page .site-main {
     margin-bottom: 1.2rem
 }
 
-.royaltreatt-av button.yes {
+.catera-av button.yes {
     background-color: var(--e-global-color-primary);
     margin-left: 0;
     margin-right: 1%
 }
 
-.royaltreatt-av button.yes:hover {
+.catera-av button.yes:hover {
     background-color: var(--e-global-color-secondary)
 }
 
-.royaltreatt-av .errors {
+.catera-av .errors {
     box-sizing: border-box;
     color: #ff1f1f;
     font-size: 12px;
@@ -7401,15 +7401,15 @@ body.elementor-page .site-main {
     margin: 0 0 20px
 }
 
-.royaltreatt-av .errors ul,
-.royaltreatt-av .errors li {
+.catera-av .errors ul,
+.catera-av .errors li {
     box-sizing: border-box;
     list-style: none;
     margin: 0;
     padding: 0 0 3px
 }
 
-.royaltreatt-av .errors li span {
+.catera-av .errors li span {
     background: #ebebeb;
     box-sizing: border-box;
     border: 1px solid #ccc;
@@ -7428,62 +7428,62 @@ body.elementor-page .site-main {
     width: 14px
 }
 
-.royaltreatt-av .fields {
+.catera-av .fields {
     box-sizing: border-box;
     clear: both;
     margin: 10px 0
 }
 
 @media(max-width:500px) {
-    .royaltreatt-av {
+    .catera-av {
         box-sizing: border-box;
         margin-left: 1px;
         margin-right: 20px;
         width: auto
     }
 
-    .royaltreatt-av img {
+    .catera-av img {
         max-width: 100%;
         max-height: 200px
     }
 
-    .royaltreatt-av button {
+    .catera-av button {
         box-sizing: border-box;
         display: block;
         width: 100%
     }
 
-    .royaltreatt-av button.no,
-    .royaltreatt-av button.yes {
+    .catera-av button.no,
+    .catera-av button.yes {
         margin-left: 0;
         margin-right: 0
     }
 }
 
-.overflow-to-left .royaltreatt-swiper {
+.overflow-to-left .catera-swiper {
     overflow: visible;
     clip-path: inset(-100% 0 -100% -100%)
 }
 
-.overflow-to-right .royaltreatt-swiper {
+.overflow-to-right .catera-swiper {
     overflow: visible;
     clip-path: inset(-100% -100% -100% 0)
 }
 
-.overflow-to-visible .royaltreatt-swiper {
+.overflow-to-visible .catera-swiper {
     overflow: visible
 }
 
-.elementor-element .royaltreatt-swiper-wrapper {
+.elementor-element .catera-swiper-wrapper {
     overflow: visible
 }
 
-.elementor-element .royaltreatt-swiper-wrapper .swiper-slide {
+.elementor-element .catera-swiper-wrapper .swiper-slide {
     width: calc((100% - ((var(--e-global-column-to-show) - 1) * var(--grid-column-gap)))/var(--e-global-column-to-show));
     margin-right: var(--grid-column-gap)
 }
 
-.elementor-element .royaltreatt-swiper-wrapper.swiper .elementor-swiper-button {
+.elementor-element .catera-swiper-wrapper.swiper .elementor-swiper-button {
     display: flex;
     min-width: 1em;
     min-height: 1em;
@@ -7505,7 +7505,7 @@ body.elementor-page .site-main {
 }
 
 @media(min-width:768px) {
-    .elementor-element .royaltreatt-swiper-wrapper.swiper .elementor-swiper-button {
+    .elementor-element .catera-swiper-wrapper.swiper .elementor-swiper-button {
         width: 60px;
         height: 60px;
         font-size: 24px;
@@ -7513,36 +7513,36 @@ body.elementor-page .site-main {
     }
 }
 
-.elementor-element .royaltreatt-swiper-wrapper.swiper .elementor-swiper-button:hover {
+.elementor-element .catera-swiper-wrapper.swiper .elementor-swiper-button:hover {
     background-color: var(--e-global-color-primary);
     color: #fff
 }
 
 @media(min-width:768px) {
-    .elementor-element .royaltreatt-swiper-wrapper.swiper .elementor-swiper-button-prev {
+    .elementor-element .catera-swiper-wrapper.swiper .elementor-swiper-button-prev {
         left: -30px;
         right: auto
     }
 
-    .rtl .elementor-element .royaltreatt-swiper-wrapper.swiper .elementor-swiper-button-prev {
+    .rtl .elementor-element .catera-swiper-wrapper.swiper .elementor-swiper-button-prev {
         right: -30px;
         left: auto
     }
 }
 
 @media(min-width:768px) {
-    .elementor-element .royaltreatt-swiper-wrapper.swiper .elementor-swiper-button-next {
+    .elementor-element .catera-swiper-wrapper.swiper .elementor-swiper-button-next {
         right: -30px;
         left: auto
     }
 
-    .rtl .elementor-element .royaltreatt-swiper-wrapper.swiper .elementor-swiper-button-next {
+    .rtl .elementor-element .catera-swiper-wrapper.swiper .elementor-swiper-button-next {
         left: -30px;
         right: auto
     }
 }
 
-.elementor-element .royaltreatt-swiper-wrapper.swiper .swiper-pagination-bullet:hover {
+.elementor-element .catera-swiper-wrapper.swiper .swiper-pagination-bullet:hover {
     opacity: 1
 }
 
@@ -7644,11 +7644,11 @@ html[dir=rtl] .woocommerce-Button--previous::before {
     content: ""
 }
 
-html[dir=rtl] .royaltreatt-product-pagination .royaltreatt-icon-arrow-circle-left:before {
+html[dir=rtl] .catera-product-pagination .catera-icon-arrow-circle-left:before {
     content: ""
 }
 
-html[dir=rtl] .royaltreatt-product-pagination .royaltreatt-icon-arrow-circle-right:before {
+html[dir=rtl] .catera-product-pagination .catera-icon-arrow-circle-right:before {
     content: ""
 }
 
